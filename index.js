@@ -16,7 +16,6 @@ function theBeatlesPlay(array1, array2){
 //Second Task
 
 var i = 0
-var j = [i.length + 1]
 var exclaim = []
 
 
@@ -27,7 +26,7 @@ function johnLennonFacts (array){
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"
       ];
-  while(i < j.length){
+  while(i < array.length){
       exclaim.push(array[i] + "!!!")
       i++;
     }
