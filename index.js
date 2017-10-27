@@ -18,14 +18,14 @@ function theBeatlesPlay(array1, array2){
 var i = 0
 var exclaim = []
 const facts = [
-  /*"He was the last Beatle to learn to drive",
+  "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"*/
+  "He hated the sound of his own voice"
   ];
 
 function johnLennonFacts (array){
-  while(exclaim.length < facts.length){
+  while(exclaim.length < facts[i + 1]){
       exclaim.push(facts[i] + "!!!")
       i++;
     }
