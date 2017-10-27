@@ -24,7 +24,7 @@ var facts = [
   "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts (array){
+function johnLennonFacts (array.length){
   while(i < array.length){
       exclaim.push(array[i] + "!!!")
       i++;
