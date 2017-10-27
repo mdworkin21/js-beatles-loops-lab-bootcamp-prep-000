@@ -17,17 +17,16 @@ function theBeatlesPlay(array1, array2){
 
 var i = 0
 var exclaim = []
+/*const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];*/
 
+//const foo = ["foo", "bar"]
 
 function johnLennonFacts (array){
-  /*const facts = [
-    "He was the last Beatle to learn to drive",
-    "He was never a vegetarian",
-    "He was a choir boy and boy scout",
-    "He hated the sound of his own voice"
-  ];*/
-
-  const foo = ["foo", "bar"]
   while(exclaim.length < array.length){
       exclaim.push(array[i] + "!!!")
       i++;
