@@ -25,7 +25,7 @@ var facts = [
   ];
 
 function johnLennonFacts (array){
-  while(i < array.length + 1 ){
+  while(i < array.length){
       exclaim.push(facts[i] + "!!!")
       i++;
     }
