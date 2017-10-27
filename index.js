@@ -26,6 +26,9 @@ function johnLennonFacts (array){
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"
       ];
+
+  const foo = ["foo", "bar"]
+
   while(i < array.length){
       exclaim.push(array[i] + "!!!")
       i++;
