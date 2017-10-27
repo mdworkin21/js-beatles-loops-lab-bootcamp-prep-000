@@ -24,10 +24,8 @@ const facts = [
   "He hated the sound of his own voice"
   ];
 
-var foo = ["foo", "bar"]
-
 function johnLennonFacts (array){
-  while(exclaim.length < facts.length){
+  while(exclaim.length < facts.length + 1){
       exclaim.push(facts[i] + "!!!")
       i++;
     }
