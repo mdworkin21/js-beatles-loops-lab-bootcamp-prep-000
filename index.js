@@ -29,10 +29,9 @@ var exclaim = []
 function johnLennonFacts(array) {
   while(exclaim.length < array.length){
       exclaim.push(array[i] + "!!!")
-
+      i++
     }
-    i++
-  return exclaim
+    return exclaim
   }
 
 //Third && Fourth Task
