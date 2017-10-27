@@ -30,7 +30,7 @@ function johnLennonFacts (array){
   //const foo = ["foo", "bar"]
 
   while(i < array.length){
-      if (array === facts){
+      if (array = facts){
         exclaim.push(facts[i] + "!!!")
       } else {exclaim.push(array[i] + "!!!")}
       i++;
