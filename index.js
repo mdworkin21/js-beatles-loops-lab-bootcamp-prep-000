@@ -20,19 +20,16 @@ var exclaim = []
 
 
 function johnLennonFacts (array){
-  const facts = [
+  /*const facts = [
     "He was the last Beatle to learn to drive",
     "He was never a vegetarian",
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"
-      ];
+  ];*/
 
-  const foo = ["foo", "bar"]
-
+  //const foo = ["foo", "bar"]
   while(exclaim.length < array.length){
-      if (array = foo){
-        exclaim.push(foo[i] + "!!!")
-      } else {exclaim.push(array[i] + "!!!")}
+      exclaim.push(array[i] + "!!!")
       i++;
     }
   return exclaim
