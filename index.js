@@ -27,10 +27,12 @@ function johnLennonFacts (array){
     "He hated the sound of his own voice"
       ];
 
-  const foo = ["foo", "bar"]
+  //const foo = ["foo", "bar"]
 
-  while(i < array.length){
-      exclaim.push(array[i] + "!!!")
+  while(i < array.length + 1){
+      if (array === facts){
+        exclaim.push(facts[i] + "!!!")
+      } else {exclaim.push(array[i] + "!!!")}
       i++;
     }
   return exclaim
