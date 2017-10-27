@@ -16,10 +16,11 @@ function theBeatlesPlay(array1, array2){
 //Second Task
 
 var i = 0
+var j = [i, 1]
 var exclaim = []
 
 
-function johnLennonFacts (...array){
+function johnLennonFacts (array){
   const facts = [
     "He was the last Beatle to learn to drive",
     "He was never a vegetarian",
