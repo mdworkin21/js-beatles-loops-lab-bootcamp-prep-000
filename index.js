@@ -19,14 +19,13 @@ var i = 0
 var exclaim = []
 
 
-function johnLennonFacts (array){
+function johnLennonFacts (...array){
   const facts = [
     "He was the last Beatle to learn to drive",
     "He was never a vegetarian",
     "He was a choir boy and boy scout",
-    "He hated the sound of his own voice",
-    ...
-  ];
+    "He hated the sound of his own voice"
+      ];
   while(i < array.length){
       exclaim.push(array[i] + "!!!")
       i++;
