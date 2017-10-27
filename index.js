@@ -16,7 +16,7 @@ function theBeatlesPlay(array1, array2){
 //Second Task
 
 var i = 0
-var j = [i, 1]
+var j = [i.length + 1]
 var exclaim = []
 
 
