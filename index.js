@@ -26,7 +26,7 @@ var exclaim = []
 
 //const foo = ["foo", "bar"]
 
-function johnLennonFacts (array){
+function johnLennonFacts(array) {
   while(exclaim.length < array.length){
       exclaim.push(array[i] + "!!!")
       i++;
